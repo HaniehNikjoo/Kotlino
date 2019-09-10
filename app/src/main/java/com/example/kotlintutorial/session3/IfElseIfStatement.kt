@@ -10,12 +10,14 @@ fun main(args: Array<String>) {
     }
     */
 
-    var score = 200
+    var score = 12
     if(score > 300)
         println("Great score")
     else if (score > 150)
         println("Excellent score")
     else if (score < 10)
         println("Bad score!")
+    else
+        println("Failed")
 
 }
