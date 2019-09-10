@@ -19,6 +19,8 @@ fun main(args: Array<String>) {
     name="another name"
     var age=20
     var weight=54.5
+    var castInt: Int=weight.toInt()
+    println(castInt)
 
     //this specific variable or constatnt can not accept value null
     val family: String
