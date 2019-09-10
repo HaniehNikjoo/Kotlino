@@ -2,13 +2,18 @@ package com.example.kotlintutorial.session6
 
 fun main(args: Array<String>) {
 
+    /*Calling functions
+       name()
+       */
     createANewPost()
     uploadImageToServer()
     downloadImageFromSerer()
 }
 
-//Camel Case
-fun createANewPost(){
+/*fun name(arg1,arg2..){
+ }
+*/
+fun createANewPost(){//Camel Case
     println("A post is created")
 }
 
