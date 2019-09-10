@@ -1,4 +1,4 @@
-package com.example.kotlintutorial.session1
+package com.example.kotlintutorial.session2
 
 fun main(args: Array<String>) {
 
