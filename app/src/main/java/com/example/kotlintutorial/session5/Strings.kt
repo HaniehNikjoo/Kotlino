@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     println(myAnimalName.toLowerCase())
     println(myAnimalName.toUpperCase())
     println(myAnimalName.split("M"))
+    println(myAnimalName.split("L"))
     println(myAnimalName.split(" "))
     println(myAnimalName[0])
     println(myAnimalName[1])
