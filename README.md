@@ -9,6 +9,7 @@ My tutorial code and exercises for learning kotlin for android
 | Session 2 | Operators And Expressions |
 | Session 3 | Decisions |
 | Session 4 | Repetition |
+| Session 5 | Strings and Arrays |
 
 # Credits
 This course is based on **Morteza Kordi's** Kotlin tutorial...
