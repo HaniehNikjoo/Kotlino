@@ -1,5 +1,10 @@
 package com.example.kotlintutorial.session7
 
+//Used in AccessModifiers.kt
+public var publicVariable: Int = 5
+internal var internalVariable: Int = 7
+private var privateVariable: Int = 7
+
 fun main(args: Array<String>) {
 
     //Create object from class

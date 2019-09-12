@@ -1,4 +1,9 @@
 package com.example.kotlintutorial.session9
+//Imported
+import com.example.kotlintutorial.session7.internalVariable
+import com.example.kotlintutorial.session7.publicVariable
+
+internal var internalVariableInAccessModifier: Int = 7
 
 fun main(args: Array<String>) {
 
@@ -31,25 +36,35 @@ fun main(args: Array<String>) {
     var msi = Computer()
     //we can not access beacause the computerName is private
     // msi.computerName = "Some Name"
+    println("This is publicVariable in Classes.kt: "+publicVariable)
+    println("This is internalVariable in Classes.kt: "+internalVariable)
+//    println("This is privateVariable in Classes.kt: "+privateVariable)
+    internalVariableInAccessModifier=7
 
 }
 
 class Animal{
     public var animalName: String = ""
+//    internalVariableInAccessModifier=7
 }
 
 class Computer{
     private var computerName: String = ""
+//    internalVariable= 2
 }
 
 open class Person{
     protected var personName: String = ""
+    internal var internalVariable: Int = 7
+    private var privateVariable: Int = 7
 }
 
 class Student: Person(){
 
     fun changePersonName(){
-        personName="Some Name"
+        personName= "Some Name"
+        internalVariable= 2
+//        privateVariable= 2
     }
 
 }
