@@ -13,6 +13,7 @@ My tutorial code and exercises for learning kotlin for android
 | Session 6 | Methods |
 | Session 7 | Classes And Objects |
 | Session 8 | Inheritance |
+| Session 9 | Visibility Modifiers |
 
 # Credits
 This course is based on **Morteza Kordi's** Kotlin tutorial...
