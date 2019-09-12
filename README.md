@@ -12,6 +12,7 @@ My tutorial code and exercises for learning kotlin for android
 | Session 5 | Strings and Arrays |
 | Session 6 | Methods |
 | Session 7 | Classes And Objects |
+| Session 8 | Inheritance |
 
 # Credits
 This course is based on **Morteza Kordi's** Kotlin tutorial...
