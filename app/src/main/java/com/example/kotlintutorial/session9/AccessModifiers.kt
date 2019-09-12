@@ -4,6 +4,8 @@ import com.example.kotlintutorial.session7.internalVariable
 import com.example.kotlintutorial.session7.publicVariable
 
 internal var internalVariableInAccessModifier: Int = 7
+public var publicVariableInAccessModifier: Int = 7
+private var privateVariableInAccessModifier: Int = 7
 
 fun main(args: Array<String>) {
 
@@ -40,12 +42,16 @@ fun main(args: Array<String>) {
     println("This is internalVariable in Classes.kt: "+internalVariable)
 //    println("This is privateVariable in Classes.kt: "+privateVariable)
     internalVariableInAccessModifier=7
+    publicVariableInAccessModifier=7
+    privateVariableInAccessModifier=7
 
 }
 
 class Animal{
     public var animalName: String = ""
 //    internalVariableInAccessModifier=7
+//    publicVariableInAccessModifier=7
+//    privateVariableInAccessModifier=7
 }
 
 class Computer{
