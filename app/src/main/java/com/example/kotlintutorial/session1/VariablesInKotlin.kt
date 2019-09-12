@@ -48,7 +48,7 @@ fun main(args: Array<String>) {
     print("Enter your cellphone:")
     //Reads a line of input from the standard input stream.
     var cellphone= readLine()
-    println("This the cellphone:"+cellphone)
+    println("This the cellphone:$cellphone")
 
     println(name)
     println(myConstant)
@@ -58,14 +58,5 @@ fun main(args: Array<String>) {
     println(family)
     println(tell)
     println(height)
-
-    //We can check whether an object conforms to a given type at runtime by using the is operator or its negated form !is
-    if (name is String) {
-        println(name.length)
-    }else if (name !is String) { // same as !(obj is String)
-        println("Not a String")
-    }else {
-        print(name.length)
-    }
 
 }
