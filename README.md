@@ -16,5 +16,5 @@ My tutorial code and exercises for learning kotlin for android
 | Session 9 | Visibility Modifiers |
 
 # Credits
-This course is based on **Morteza Kordi's** Kotlin tutorial...
+This course is based on **Morteza Kordi's** Kotlin tutorial and https://kotlinlang.org/docs/reference
 
