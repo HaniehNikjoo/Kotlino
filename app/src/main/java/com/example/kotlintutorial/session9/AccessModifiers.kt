@@ -40,10 +40,12 @@ fun main(args: Array<String>) {
     // msi.computerName = "Some Name"
     println("This is publicVariable in Classes.kt: "+publicVariable)
     println("This is internalVariable in Classes.kt: "+internalVariable)
-//    println("This is privateVariable in Classes.kt: "+privateVariable)
+    //println("This is privateVariable in Classes.kt: "+privateVariable)
     internalVariableInAccessModifier=7
     publicVariableInAccessModifier=7
     privateVariableInAccessModifier=7
+
+    com.example.kotlintutorial.session8.Person().name="something"
 
 }
 
