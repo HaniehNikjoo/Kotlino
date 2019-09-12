@@ -16,6 +16,7 @@ fun main(args: Array<String>) {
 
 }
 
+//Create Class
 class Car(){
 
     //Properties in the class must be initialized

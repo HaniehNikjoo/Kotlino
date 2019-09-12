@@ -35,7 +35,8 @@ fun main(args: Array<String>) {
     //Null Safety
     var myIntegerNumber : Int? = 123
     println(myIntegerNumber!!)
-    // var myIntegerNumber2 : Int? = null // println(myIntegerNumber2!!)
+    // var myIntegerNumber2 : Int? = null
+    // println(myIntegerNumber2!!)
 
     var score=20
     /* you can concatenate using the + operator
