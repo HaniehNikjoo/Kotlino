@@ -20,7 +20,7 @@ class Animal(speed: Int){
     Delegation to another constructor of the same class is done using the this keyword
      */
     constructor(name: String,color: String,power:Int,speed:Int): this(speed){
-        println(name +" - "+color +" - "+ power +" - "+ speed)
+        println("$name - $color - $power - $speed")
     }
 
 }

@@ -22,11 +22,6 @@ fun main(args: Array<String>) {
     tell=null
     var height: Int?
     height=null
-    //Null Safety
-    var myIntegerNumber : Int? = 123
-    println(myIntegerNumber!!)
-    // var myIntegerNumber2 : Int? = null
-    // println(myIntegerNumber2!!)
 
     //Declaring variables(when you won’t need to specify the type)
     var name="hanieh"
@@ -58,5 +53,12 @@ fun main(args: Array<String>) {
     println(family)
     println(tell)
     println(height)
+
+    //Null Safety
+    //Example
+    var myIntegerNumber : Int? = 123
+    println(myIntegerNumber!!)
+    // var myIntegerNumber2 : Int? = null
+    // println(myIntegerNumber2!!)
 
 }
