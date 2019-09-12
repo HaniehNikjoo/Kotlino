@@ -8,19 +8,9 @@ fun main(args: Array<String>) {
 
     // Type required when no initializer is provided
     val number: Int
-
     /* deferred assignment
     val cannot be reassigned */
     number = 3
-    var castNumber: String=number.toString()
-
-    //Declaring variables(when you won’t need to specify the type)
-    var name="hanieh"
-    name="another name"
-    var age=20
-    var weight=54.5
-    var castInt: Int=weight.toInt()
-    println(castInt)
 
     //this specific variable or constatnt can not accept value null
     val family: String
@@ -37,6 +27,12 @@ fun main(args: Array<String>) {
     println(myIntegerNumber!!)
     // var myIntegerNumber2 : Int? = null
     // println(myIntegerNumber2!!)
+
+    //Declaring variables(when you won’t need to specify the type)
+    var name="hanieh"
+    name="another name"
+    var age=20
+    var weight=54.5
 
     var score=20
     /* you can concatenate using the + operator
@@ -59,7 +55,6 @@ fun main(args: Array<String>) {
     println(age)
     println(weight)
     println(number)
-    println(castNumber)
     println(family)
     println(tell)
     println(height)
