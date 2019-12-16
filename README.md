@@ -19,6 +19,7 @@ My tutorial code and exercises for learning kotlin
 | Session 12 | Enum |
 | Session 13 | Generic |
 | Session 14 | Extension |
+| Session 15 | Nested Classes |
 
 # Credits
 This course is based on **Morteza Kordi's** Kotlin tutorial and [kotlinlang.org](https://kotlinlang.org/docs/reference)
